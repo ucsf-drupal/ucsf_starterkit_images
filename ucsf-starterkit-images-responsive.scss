@@ -11,6 +11,9 @@ $display_medium_min: 630px;
 $display_small_max: 629px;
 $display_small_min: 380px;
 
+// older mobile portrait
+$display_mobile_max: 379px;
+
 @media screen and (min-width: $display_medium_min) {
 	/**
 	 * 1/4
@@ -124,11 +127,11 @@ $display_small_min: 380px;
 	.file-entity-sixth,
 	.file-entity-square-sixth,
 	.media-square-sixth,
-	.media-sixth { width: 0.16666666666666%;}
+	.media-sixth { width: 16.66666666666666%;}
 }
 
 // This is the mobile
-@media screen and (max-width: $display_small_min) {
+@media screen and (max-width: $display_mobile_max) {
 	.file-entity-half,
 	.file-entity-square-half,
 	.media-square-half,
@@ -214,7 +217,7 @@ $display_small_min: 380px;
 		.file-entity-sixth,
 		.file-entity-square-sixth,
 		.media-square-sixth,
-		.media-sixth { width: 0.16666666666666%;}
+		.media-sixth { width: 16.66666666666666%;}
 	}
 }
 
