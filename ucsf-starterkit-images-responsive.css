@@ -160,7 +160,7 @@
     width: 25%;
   }
 }
-@media screen and (min-width: 380px) and (max-width: 819px) {
+@media screen and (min-width: 376px) and (max-width: 819px) {
   /* line 115, ucsf-starterkit-images-responsive.scss */
   .file-entity-half,
   .file-entity-square-half,
@@ -193,7 +193,7 @@
     width: 16.66666666666666%;
   }
 }
-@media screen and (max-width: 379px) {
+@media screen and (max-width: 375px) {
   /* line 135, ucsf-starterkit-images-responsive.scss */
   .file-entity-half,
   .file-entity-square-half,

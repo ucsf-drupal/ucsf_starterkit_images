@@ -9,10 +9,10 @@ $display_medium_min: 630px;
 
 // Handheld and small display screen
 $display_small_max: 629px;
-$display_small_min: 380px;
+$display_small_min: 376px;
 
 // older mobile portrait
-$display_mobile_max: 379px;
+$display_mobile_max: 375px;
 
 @media screen and (min-width: $display_medium_min) {
 	/**
