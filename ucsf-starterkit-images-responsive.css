@@ -190,10 +190,10 @@
   .file-entity-square-sixth,
   .media-square-sixth,
   .media-sixth {
-    width: 0.16666666666666%;
+    width: 16.66666666666666%;
   }
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 379px) {
   /* line 135, ucsf-starterkit-images-responsive.scss */
   .file-entity-half,
   .file-entity-square-half,
@@ -320,7 +320,7 @@
   .two-sidebars .sidebar-second .file-entity-square-sixth,
   .two-sidebars .sidebar-second .media-square-sixth,
   .two-sidebars .sidebar-second .media-sixth {
-    width: 0.16666666666666%;
+    width: 16.66666666666666%;
   }
 }
 /* line 221, ucsf-starterkit-images-responsive.scss */
