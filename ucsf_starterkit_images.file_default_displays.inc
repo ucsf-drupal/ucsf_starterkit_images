@@ -61,10 +61,10 @@ function ucsf_starterkit_images_file_default_displays() {
   $file_display->weight = 0;
   $file_display->status = FALSE;
   $file_display->settings = array(
-    'picture_group' => 'media_three_quarters',
     'fallback_image_style' => 'starter_kit_three_quarters',
     'image_link' => '',
     'colorbox' => 'media_three_quarters',
+    'picture_mapping' => 'media_three_quarters',
   );
   $export['image__default__file_field_picture'] = $file_display;
 
@@ -189,10 +189,10 @@ function ucsf_starterkit_images_file_default_displays() {
   $file_display->weight = 0;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'picture_group' => 'media_full',
     'fallback_image_style' => 'starter_kit_full',
     'image_link' => '',
     'colorbox' => 'media_full',
+    'picture_mapping' => 'media_full',
   );
   $export['image__full__file_field_picture'] = $file_display;
 
@@ -327,10 +327,10 @@ function ucsf_starterkit_images_file_default_displays() {
   $file_display->weight = 0;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'picture_group' => 'media_half',
     'fallback_image_style' => 'starter_kit_half',
     'image_link' => '',
     'colorbox' => 'media_full',
+    'picture_mapping' => 'media_half',
   );
   $export['image__half__file_field_picture'] = $file_display;
 
@@ -455,10 +455,10 @@ function ucsf_starterkit_images_file_default_displays() {
   $file_display->weight = 0;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'picture_group' => 'media_full',
     'fallback_image_style' => 'starter_kit_full',
     'image_link' => '',
     'colorbox' => 'media_full',
+    'picture_mapping' => 'media_full',
   );
   $export['image__media_full__file_field_picture'] = $file_display;
 
@@ -633,10 +633,10 @@ function ucsf_starterkit_images_file_default_displays() {
   $file_display->weight = 0;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'picture_group' => 'media_quarter',
     'fallback_image_style' => 'starter_kit_quarter',
     'image_link' => '',
     'colorbox' => 'media_full',
+    'picture_mapping' => 'media_quarter',
   );
   $export['image__quarter__file_field_picture'] = $file_display;
 
@@ -761,10 +761,10 @@ function ucsf_starterkit_images_file_default_displays() {
   $file_display->weight = 0;
   $file_display->status = FALSE;
   $file_display->settings = array(
-    'picture_group' => 'media_full',
     'fallback_image_style' => '',
     'image_link' => '',
     'colorbox' => 'media_full',
+    'picture_mapping' => 'media_full',
   );
   $export['image__raw_square__file_field_picture'] = $file_display;
 
@@ -991,10 +991,10 @@ function ucsf_starterkit_images_file_default_displays() {
   $file_display->weight = 0;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'picture_group' => 'media_square_half',
     'fallback_image_style' => 'starterkit_square_half',
     'image_link' => '',
     'colorbox' => 'media_square_half',
+    'picture_mapping' => 'media_square_half',
   );
   $export['image__square_half__file_field_picture'] = $file_display;
 
@@ -1119,10 +1119,10 @@ function ucsf_starterkit_images_file_default_displays() {
   $file_display->weight = 0;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'picture_group' => 'media_square_quarter',
     'fallback_image_style' => 'starterkit_square_quarter',
     'image_link' => '',
     'colorbox' => 'media_square_half',
+    'picture_mapping' => 'media_square_quarter',
   );
   $export['image__square_quarter__file_field_picture'] = $file_display;
 
@@ -1247,10 +1247,10 @@ function ucsf_starterkit_images_file_default_displays() {
   $file_display->weight = 0;
   $file_display->status = FALSE;
   $file_display->settings = array(
-    'picture_group' => 'media_square_half',
     'fallback_image_style' => '',
     'image_link' => '',
     'colorbox' => 'media_square_half',
+    'picture_mapping' => 'media_square_half',
   );
   $export['image__square_sixth__file_field_picture'] = $file_display;
 
@@ -1375,10 +1375,10 @@ function ucsf_starterkit_images_file_default_displays() {
   $file_display->weight = 0;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'picture_group' => 'media_square_third',
     'fallback_image_style' => 'starterkit_square_third',
     'image_link' => '',
     'colorbox' => 'media_square_half',
+    'picture_mapping' => 'media_square_third',
   );
   $export['image__square_third__file_field_picture'] = $file_display;
 
@@ -1503,10 +1503,10 @@ function ucsf_starterkit_images_file_default_displays() {
   $file_display->weight = 0;
   $file_display->status = FALSE;
   $file_display->settings = array(
-    'picture_group' => 'media_square_half',
     'fallback_image_style' => '',
     'image_link' => '',
     'colorbox' => 'media_square_half',
+    'picture_mapping' => 'media_square_half',
   );
   $export['image__square_thumbnail__file_field_picture'] = $file_display;
 
@@ -1660,10 +1660,10 @@ function ucsf_starterkit_images_file_default_displays() {
   $file_display->weight = 0;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'picture_group' => 'media_third',
     'fallback_image_style' => 'starter_kit_third',
     'image_link' => '',
     'colorbox' => 'media_full',
+    'picture_mapping' => 'media_third',
   );
   $export['image__third__file_field_picture'] = $file_display;
 
@@ -1788,10 +1788,10 @@ function ucsf_starterkit_images_file_default_displays() {
   $file_display->weight = 0;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'picture_group' => 'media_three_quarters',
     'fallback_image_style' => 'starter_kit_three_quarters',
     'image_link' => '',
     'colorbox' => 'media_full',
+    'picture_mapping' => 'media_three_quarters',
   );
   $export['image__three_quarters__file_field_picture'] = $file_display;
 
@@ -1916,10 +1916,10 @@ function ucsf_starterkit_images_file_default_displays() {
   $file_display->weight = 0;
   $file_display->status = FALSE;
   $file_display->settings = array(
-    'picture_group' => 'media_square_half',
     'fallback_image_style' => '',
     'image_link' => '',
     'colorbox' => 'media_square_half',
+    'picture_mapping' => 'media_square_half',
   );
   $export['image__thumbnail__file_field_picture'] = $file_display;
 
@@ -2094,7 +2094,7 @@ function ucsf_starterkit_images_file_default_displays() {
   $file_display = new stdClass();
   $file_display->api_version = 1;
   $file_display->name = 'video__default__media_youtube_video';
-  $file_display->weight = -47;
+  $file_display->weight = 0;
   $file_display->status = TRUE;
   $file_display->settings = array(
     'width' => '640',
@@ -2102,17 +2102,16 @@ function ucsf_starterkit_images_file_default_displays() {
     'theme' => 'dark',
     'color' => 'red',
     'autohide' => '2',
-    'captions' => '1',
     'autoplay' => 0,
     'loop' => 0,
     'showinfo' => 1,
-    'modestbranding' => 1,
-    'rel' => 0,
+    'modestbranding' => 0,
+    'rel' => 1,
     'nocookie' => 0,
     'protocol_specify' => 0,
-    'protocol' => 'http:',
-    'enablejsapi' => 1,
-    'origin' => 'http://drupal.ucsf.edu',
+    'protocol' => 'https:',
+    'enablejsapi' => 0,
+    'origin' => '',
   );
   $export['video__default__media_youtube_video'] = $file_display;
 
@@ -2311,6 +2310,7 @@ function ucsf_starterkit_images_file_default_displays() {
     'controls' => 1,
     'autoplay' => 0,
     'loop' => 0,
+    'muted' => 0,
     'width' => '',
     'height' => '',
     'multiple_file_behavior' => 'tags',
@@ -2354,7 +2354,7 @@ function ucsf_starterkit_images_file_default_displays() {
   $file_display->weight = -50;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'width' => '542',
+    'width' => '',
     'height' => '',
     'autoplay' => 0,
   );
@@ -2376,8 +2376,8 @@ function ucsf_starterkit_images_file_default_displays() {
   $file_display->weight = -48;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'width' => '542',
-    'height' => '287',
+    'width' => '',
+    'height' => '',
     'theme' => 'dark',
     'color' => 'red',
     'autohide' => '2',
@@ -2450,6 +2450,7 @@ function ucsf_starterkit_images_file_default_displays() {
     'controls' => 1,
     'autoplay' => 0,
     'loop' => 0,
+    'muted' => 0,
     'width' => '',
     'height' => '',
     'multiple_file_behavior' => 'tags',
@@ -2493,7 +2494,7 @@ function ucsf_starterkit_images_file_default_displays() {
   $file_display->weight = -50;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'width' => '1170',
+    'width' => '',
     'height' => '',
     'autoplay' => 0,
   );
@@ -2515,8 +2516,8 @@ function ucsf_starterkit_images_file_default_displays() {
   $file_display->weight = -48;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'width' => '1170',
-    'height' => '658',
+    'width' => '',
+    'height' => '',
     'theme' => 'dark',
     'color' => 'red',
     'autohide' => '2',
@@ -2540,6 +2541,16 @@ function ucsf_starterkit_images_file_default_displays() {
   $file_display->status = TRUE;
   $file_display->settings = '';
   $export['video__preview__file_field_media_large_icon'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
+  $file_display->name = 'video__preview__media_youtube_image';
+  $file_display->weight = 0;
+  $file_display->status = TRUE;
+  $file_display->settings = array(
+    'image_style' => 'media_thumbnail',
+  );
+  $export['video__preview__media_youtube_image'] = $file_display;
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
@@ -3516,6 +3527,30 @@ function ucsf_starterkit_images_file_default_displays() {
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
+  $file_display->name = 'video__teaser__media_youtube_video';
+  $file_display->weight = 0;
+  $file_display->status = TRUE;
+  $file_display->settings = array(
+    'width' => '560',
+    'height' => '340',
+    'theme' => 'dark',
+    'color' => 'red',
+    'autohide' => '2',
+    'autoplay' => 0,
+    'loop' => 0,
+    'showinfo' => 1,
+    'modestbranding' => 0,
+    'rel' => 1,
+    'nocookie' => 0,
+    'protocol_specify' => 0,
+    'protocol' => 'https:',
+    'enablejsapi' => 0,
+    'origin' => '',
+  );
+  $export['video__teaser__media_youtube_video'] = $file_display;
+
+  $file_display = new stdClass();
+  $file_display->api_version = 1;
   $file_display->name = 'video__third__file_field_file_audio';
   $file_display->weight = 0;
   $file_display->status = FALSE;
@@ -3709,6 +3744,7 @@ function ucsf_starterkit_images_file_default_displays() {
     'controls' => 1,
     'autoplay' => 0,
     'loop' => 0,
+    'muted' => 0,
     'width' => '',
     'height' => '',
     'multiple_file_behavior' => 'tags',
@@ -3742,7 +3778,7 @@ function ucsf_starterkit_images_file_default_displays() {
   $file_display->weight = -46;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'image_style' => '',
+    'image_style' => 'starter_kit_three_quarters',
   );
   $export['video__three_quarters__media_vimeo_image'] = $file_display;
 
@@ -3764,7 +3800,7 @@ function ucsf_starterkit_images_file_default_displays() {
   $file_display->weight = -47;
   $file_display->status = TRUE;
   $file_display->settings = array(
-    'image_style' => '',
+    'image_style' => 'starter_kit_three_quarters',
   );
   $export['video__three_quarters__media_youtube_image'] = $file_display;
 
@@ -3779,7 +3815,6 @@ function ucsf_starterkit_images_file_default_displays() {
     'theme' => 'dark',
     'color' => 'red',
     'autohide' => '2',
-    'captions' => FALSE,
     'autoplay' => 0,
     'loop' => 0,
     'showinfo' => 1,
