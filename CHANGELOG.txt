@@ -1,4 +1,4 @@
-7.x-2.1-beta1
+7.x-1.2-beta1
 -------------
 - Fixed typo in CSS rule and media query overlap #1
 - Removed width/height settings in file displays for videos #2
